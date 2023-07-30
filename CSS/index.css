@@ -1,0 +1,148 @@
+*
+{
+    margin: 0%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+span{
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 20px;
+    color: red;
+}
+.navbar{
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+    position: sticky;
+}
+.nav-a{
+    font-size: 20px;
+    color: black;
+    margin-left: 40px;
+    text-decoration: none;
+    margin-top: 30px;
+    position: sticky;
+}
+.nav{
+    background-color: #f2f2f2;
+    padding: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    position: sticky;
+}
+#submenus{
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 35px;
+    z-index: 1;
+    visibility: hidden;
+}
+ul#submenus li:hover{
+    opacity: 1;
+    top: 50px;
+    visibility: visible;
+}
+#submenu li{
+    float: none;
+    width: 100%;
+}
+.search-bar{
+    margin-left: 300px;
+    height: 40px;
+    margin-top: 10px;
+    width: 400px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+.subscribe{
+    height: 50px;
+    width: 200px;
+    border-radius: 40px;
+    border: solid 1px black;
+    background: transparent;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.subscribe:hover{
+    color: white;
+    background: black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.create{
+    height: 50px;
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 40px;
+    border: none;
+    color: white;
+    background: #3385ff;
+}
+.create:hover{
+    background: #66a3ff;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#social-media{
+    margin-top: 140px;
+    margin-left: 30px;
+}
+.icon{
+    height: 34px;
+    display: block;
+    margin-top: 40px;
+}
+.side-bar{
+    position: fixed;
+}
+.description{
+    margin-top: 50px;
+    margin-left: 200px;
+}
+h1{
+    margin-top: 30px;
+    font-size: 60px;
+}
+.image{
+    height: 500px;
+}
+p{
+    font-size: 20px;
+}
+.start{
+    margin-left: 400px;
+    margin-top: 30px;
+    height: 50px;
+    width: 200px;
+    border-radius: 40px;
+    background: #3385ff;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.start:hover{
+    background: #66a3ff;
+    transition: 0.5s;
+}
+.youtube{
+    margin-top: 40px;
+}
+h2{
+    font-size: 30px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+.top{
+    margin-top: 30px;
+}
+ol{
+    margin-top: 30px;
+}
+.gap{
+    color: #3385ff;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
