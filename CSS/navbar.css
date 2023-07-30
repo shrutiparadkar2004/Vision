@@ -1,0 +1,101 @@
+*
+{
+    margin: 0%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/*navbar starts*/
+span{
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 20px;
+    color: red;
+}
+.navbar{
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+    position: sticky;
+}
+.nav-a{
+    font-size: 20px;
+    color: black;
+    margin-left: 40px;
+    text-decoration: none;
+    margin-top: 30px;
+    position: sticky;
+}
+.nav{
+    background-color: #f2f2f2;
+    padding: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    position: sticky;
+}
+#submenus{
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 35px;
+    z-index: 1;
+    visibility: hidden;
+}
+ul#submenus li:hover{
+    opacity: 1;
+    top: 50px;
+    visibility: visible;
+}
+#submenu li{
+    float: none;
+    width: 100%;
+}
+.search-bar{
+    margin-left: 300px;
+    height: 40px;
+    margin-top: 10px;
+    width: 400px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+.subscribe{
+    height: 50px;
+    width: 200px;
+    border-radius: 40px;
+    border: solid 1px black;
+    background: transparent;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.subscribe:hover{
+    color: white;
+    background: black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.create{
+    height: 50px;
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 40px;
+    border: none;
+    color: white;
+    background: #3385ff;
+}
+.create:hover{
+    background: #66a3ff;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#social-media{
+    margin-top: 140px;
+    margin-left: 30px;
+}
+.icon{
+    height: 34px;
+    display: block;
+    margin-top: 40px;
+}
+.side-bar{
+    position: fixed;
+}
+/*navbar ends*/
