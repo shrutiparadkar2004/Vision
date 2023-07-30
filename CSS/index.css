@@ -3,6 +3,7 @@
     margin: 0%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+/*navbar starts*/
 span{
     font-size: 50px;
     font-weight: bold;
@@ -97,6 +98,7 @@ ul#submenus li:hover{
 .side-bar{
     position: fixed;
 }
+/*navbar ends*/
 .description{
     margin-top: 50px;
     margin-left: 200px;
