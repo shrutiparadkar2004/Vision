@@ -168,3 +168,43 @@ hr{
     font-size: 15px;
     border: none;
 }
+.opinion{
+    text-align: center;
+}
+.opi-btn{
+    height: 50px;
+    width: 150px;
+    border-radius: 40px;
+    background: transparent;
+    margin-left: 450px;
+}
+.opi-btn-2{
+    height: 50px;
+    width: 150px;
+    border-radius: 40px;
+    background: transparent;
+    margin-left: 20px;
+}
+.opi-btn:hover{
+    color: white;
+    background: black;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.opi-btn-2:hover{
+    color: white;
+    background: black;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.card{
+    height: 450px;
+    width: 95%;
+    background-color: black;
+    color: white;
+}
+.title{
+    margin-left: 50px;
+    padding: 140px;
+    font-size: 70px;
+}
