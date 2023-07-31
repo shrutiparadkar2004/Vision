@@ -225,10 +225,11 @@ hr{
 }
 .join{
     height: 50px;
-    width: 100px;
+    width: 150px;
     border-radius: 40px;
     color: black;
     background: white;
+    margin-left: 100px;
 }
 .join:hover{
     cursor: pointer;
