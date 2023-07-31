@@ -23,7 +23,7 @@ span{
 .nav-a{
     font-size: 20px;
     color: black;
-    margin-left: 10px;
+    margin-left: 20px;
     text-decoration: none;
     margin-top: 30px;
 }
@@ -44,7 +44,7 @@ ul#submenus li:hover{
     width: 100%;
 }
 .search-bar{
-    margin-left: 300px;
+    margin-left: 250px;
     height: 40px;
     margin-top: 10px;
     width: 250px;
@@ -70,7 +70,7 @@ ul#submenus li:hover{
 }
 .create{
     height: 50px;
-    width: 200px;
+    width: 220px;
     margin-left: 20px;
     margin-top: 10px;
     border-radius: 40px;
