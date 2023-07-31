@@ -1,6 +1,8 @@
 *
 {
     margin: 0%;
+    padding: 0%;
+    border-bottom: 0%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 /*navbar starts*/
@@ -12,23 +14,18 @@ span{
 }
 .navbar{
     display: flex;
-    margin-top: 10px;
     width: 100%;
     position: sticky;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    padding: 10px;
+    background: #cccccc;
 }
 .nav-a{
     font-size: 20px;
     color: black;
-    margin-left: 40px;
+    margin-left: 10px;
     text-decoration: none;
     margin-top: 30px;
-    position: sticky;
-}
-.nav{
-    background-color: #f2f2f2;
-    padding: 10px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-    position: sticky;
 }
 #submenus{
     left: 0;
@@ -41,7 +38,6 @@ span{
 ul#submenus li:hover{
     opacity: 1;
     top: 50px;
-    visibility: visible;
 }
 #submenu li{
     float: none;
@@ -51,14 +47,15 @@ ul#submenus li:hover{
     margin-left: 300px;
     height: 40px;
     margin-top: 10px;
-    width: 400px;
+    width: 250px;
     border: none;
     border-radius: 5px;
     padding: 5px;
+    background: none;
 }
 .subscribe{
     height: 50px;
-    width: 200px;
+    width: 150px;
     border-radius: 40px;
     border: solid 1px black;
     background: transparent;
@@ -73,7 +70,7 @@ ul#submenus li:hover{
 }
 .create{
     height: 50px;
-    width: 300px;
+    width: 200px;
     margin-left: 20px;
     margin-top: 10px;
     border-radius: 40px;
@@ -87,7 +84,7 @@ ul#submenus li:hover{
     cursor: pointer;
 }
 #social-media{
-    margin-top: 140px;
+    margin-top: 230px;
     margin-left: 30px;
 }
 .icon{
@@ -100,12 +97,12 @@ ul#submenus li:hover{
 }
 /*navbar ends*/
 .description{
-    margin-top: 50px;
+    margin-top: 150px;
     margin-left: 200px;
 }
-h1{
+.header{
     margin-top: 30px;
-    font-size: 60px;
+    font-size: 70px;
 }
 .image{
     height: 500px;
@@ -203,7 +200,7 @@ hr{
     cursor: pointer;
     transition: 0.5s;
 }
-.card{
+.card-container{
     height: 450px;
     width: 95%;
     background-color: black;
@@ -215,7 +212,7 @@ hr{
 }
 .email{
     height: 50px;
-    width: 400px;
+    width: 200px;
     color: white;
     border: none;
     margin-top: 100px;
@@ -228,7 +225,7 @@ hr{
 }
 .join{
     height: 50px;
-    width: 150px;
+    width: 100px;
     border-radius: 40px;
     color: black;
     background: white;
