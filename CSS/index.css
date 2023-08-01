@@ -252,7 +252,22 @@ hr{
     margin-left: 500px;
 }
 .footer-container{
-    height: 800px;
+    height: 650px;
     width: 100%;
     background-color: #e6e6e6;
+}
+#align{
+    margin-left: 190px;
+}
+.foot-head{
+    color: #404040;
+    padding: 90px;
+}
+.sub-footer{
+    color: black;
+    margin-left: 190px;a
+}
+.color{
+    color: black;
+    text-decoration: none;
 }
