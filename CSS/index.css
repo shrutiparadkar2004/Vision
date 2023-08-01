@@ -280,3 +280,9 @@ hr{
     height: 100px;
     width: 250px;
 }
+.content{
+    color: white;
+    margin-top: 30px;
+    font-weight: none;
+    font-size: 15px;
+}
