@@ -255,7 +255,7 @@ hr{
 /* footer */
 
 .footer-container{
-    height: 500px;
+    height: 530px;
     width: 100%;
     background-color: #0d0d0d;
     display: flex;
@@ -275,4 +275,8 @@ hr{
 .color{
     color: rgb(249, 242, 242);
     text-decoration: none;
+}
+.logo{
+    height: 100px;
+    width: 250px;
 }
