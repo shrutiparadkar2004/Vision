@@ -251,26 +251,29 @@ hr{
 .move{
     margin-left: 500px;
 }
+
+/* footer */
+
+
 .footer-container{
-    height: 650px;
+    height: 480px;
     width: 100%;
-    background-color: #e6e6e6;
-}
-#align{
-    margin-left: 180px;
+    background-color: #0d0d0d;
+    display: flex;
+    color: #e6e6e6;
 }
 .foot-head{
-    color: #404040;
-    padding: 40px;
+    color: #f6eeee;
+    padding: 50px;
     display: flex;
 }
 .sub-footer{
-    color: black;
+    color: rgb(243, 238, 238);
     text-decoration: none;
     margin-top: 10px;
     margin-left: 180px;
 }
 .color{
-    color: black;
+    color: rgb(249, 242, 242);
     text-decoration: none;
 }
