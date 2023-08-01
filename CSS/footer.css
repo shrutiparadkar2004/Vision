@@ -1,0 +1,34 @@
+/* footer */
+*
+{
+    margin: 0%;
+    padding: 0%;
+    border-bottom: 0%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.footer-container{
+    height: 530px;
+    width: 100%;
+    background-color: #0d0d0d;
+    display: flex;
+    color: #e6e6e6;
+}
+.foot-head{
+    color: #f6eeee;
+    padding: 50px;
+    display: flex;
+}
+.sub-footer{
+    color: rgb(243, 238, 238);
+    text-decoration: none;
+    margin-top: 70px;
+    margin-left: 80px;
+}
+.color{
+    color: rgb(249, 242, 242);
+    text-decoration: none;
+}
+.logo{
+    height: 100px;
+    width: 250px;
+}
