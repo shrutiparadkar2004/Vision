@@ -160,7 +160,7 @@ hr{
     cursor: pointer;
 }
 .small:hover{
-    background: #e6f2ff;
+    background-color: #e6f2ff;
     border-radius: 50%;
     padding: 10px;
     transition: 0.5s;
