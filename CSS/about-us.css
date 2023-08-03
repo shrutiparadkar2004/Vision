@@ -58,9 +58,9 @@ span{
     transition: 0.5s;
 }
 .car{
-    height: 400px;
+    height: 300px;
     width: 100%;
-    background-color:#3385ff;
+    background-color:white;
     margin-top: 92px;
 }
 .leading{
@@ -69,4 +69,12 @@ span{
     margin-left: 250px;
     font-size: 70px;
     padding: 80px;
+}
+.container{
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-image: url('https://img.freepik.com/free-photo/html-system-website-concept_23-2150376770.jpg?w=1060&t=st=1691073563~exp=1691074163~hmac=e9be584ffac771d00ec6db645771154ae6e4ddcdb852e67ca1df45edfc586894');
+    background-attachment: fixed;
 }
