@@ -72,9 +72,52 @@ span{
 }
 .container{
     width: 100%;
-    height: 500px;
+    height: 600px;
     background-position: center;
     background-size: cover;
-    background-image: url('https://img.freepik.com/free-photo/html-system-website-concept_23-2150376770.jpg?w=1060&t=st=1691073563~exp=1691074163~hmac=e9be584ffac771d00ec6db645771154ae6e4ddcdb852e67ca1df45edfc586894');
+    background-image: url('https://images.pexels.com/photos/3182773/pexels-photo-3182773.jpeg?cs=srgb&dl=pexels-fauxels-3182773.jpg&fm=jpg');
     background-attachment: fixed;
+}
+.sec-left{
+    margin-left: 200px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.sec-right{
+    margin-left: 150px;
+    font-size: 20px;
+    margin-top: 60px;
+}
+.content-card{
+    height: 400px;
+    display: flex;
+}
+.growth-chart{
+    height: 500px;
+    width: 900px;
+    margin-left: 330px;
+}
+.final{
+    margin-top: 200px;
+}
+.pro{
+    margin-top: 250px;
+    margin-left: 200px;
+    font-size: 60px;
+    font-weight: bold;
+}
+.web-2{
+    height: 60px;
+    width: 250px;
+    border: none;
+    color: white;
+    background: black;
+    border-radius: 40px;
+    margin-left: 200px;
+}
+.web-2:hover{
+    cursor: pointer;
+    background: #404040;
+    transition: 0.5s;
 }
