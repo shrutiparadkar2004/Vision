@@ -57,3 +57,16 @@ span{
     background-color:  #66a3ff;
     transition: 0.5s;
 }
+.car{
+    height: 400px;
+    width: 100%;
+    background-color:#3385ff;
+    margin-top: 92px;
+}
+.leading{
+    color: black;
+    font-size:xx-large;
+    margin-left: 250px;
+    font-size: 70px;
+    padding: 80px;
+}
