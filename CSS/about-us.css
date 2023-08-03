@@ -51,3 +51,7 @@ span{
     margin-left: 40px;
     margin-right: 20px;
 }
+.web:hover{
+    background-color:  #66a3ff;
+    transition: 0.5s;
+}
