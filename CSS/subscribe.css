@@ -9,7 +9,6 @@
 span{
     font-size: 50px;
     font-weight: bold;
-    margin-left: 20px;
     color: black;
 }
 .navbar{
@@ -47,7 +46,7 @@ ul#submenus li:hover{
     margin-left: 250px;
     height: 40px;
     margin-top: 10px;
-    width: 250px;
+    width: 280px;
     border: none;
     border-radius: 5px;
     padding: 5px;
@@ -70,13 +69,14 @@ ul#submenus li:hover{
 }
 .create{
     height: 50px;
-    width: 220px;
+    width: 250px;
     margin-left: 20px;
     margin-top: 10px;
     border-radius: 40px;
     border: none;
     color: white;
     background: #3385ff;
+    margin-right: 5px;
 }
 .create:hover{
     background: #66a3ff;
