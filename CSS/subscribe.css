@@ -43,7 +43,7 @@ ul#submenus li:hover{
     width: 100%;
 }
 .search-bar{
-    margin-left: 250px;
+    margin-left: 230px;
     height: 40px;
     margin-top: 10px;
     width: 280px;
@@ -58,7 +58,6 @@ ul#submenus li:hover{
     border-radius: 40px;
     border: solid 1px black;
     background: transparent;
-    margin-left: 20px;
     margin-top: 10px;
 }
 .subscribe:hover{
@@ -69,14 +68,13 @@ ul#submenus li:hover{
 }
 .create{
     height: 50px;
-    width: 250px;
-    margin-left: 20px;
+    width: 280px;
     margin-top: 10px;
     border-radius: 40px;
     border: none;
     color: white;
     background: #3385ff;
-    margin-right: 5px;
+    margin-left: 20px;
 }
 .create:hover{
     background: #66a3ff;
